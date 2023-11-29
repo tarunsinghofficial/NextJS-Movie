@@ -17,8 +17,6 @@ function Row({ rowTitle, rowUrl, rowId }) {
         })
     }, [])
 
-    console.log(movies);
-
     const scrollLeft = () => {
         let scroll = document.getElementById('row-slider' + rowId);
         scroll.scrollLeft = scroll.scrollLeft - 500;

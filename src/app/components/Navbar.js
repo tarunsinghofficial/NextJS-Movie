@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="container mx-auto bg-transparent w-full h-20 relative top-0 flex justify-between items-center">   
+    <nav className="px-2 md:px-10 lg:px-40 bg-transparent w-full h-20 relative top-0 flex justify-between items-center">   
       <ul className="hidden md:flex flex-row font-bold text-xl gap-3">
         <li>
           <Link href="/" className="hover:cursor-pointer">
